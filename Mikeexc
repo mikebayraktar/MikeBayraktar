@@ -1,7 +1,4 @@
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Mikeexc/37d4b2fc495c4fc530d63179ce78ddb98b92d308/Mike"))()
 local Window = Library.CreateLib("🔴Green Light Red Light🟢 - Mikeexc", "LightTheme")
 local LocalPlayer = Window:NewTab("LocalPlayer")
 local Gamepasses = Window:NewTab("Gamepasses")
