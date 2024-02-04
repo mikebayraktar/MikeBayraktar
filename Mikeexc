@@ -1,4 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Mikeexc/main/Mike"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Toogle-Ui/main/Toogle"))()
 local Window = Library.CreateLib("🔴Green Light Red Light🟢 - discord.gg/uDDKWB6axc", "LightTheme")
 local LocalPlayer = Window:NewTab("LocalPlayer")
 local Gamepasses = Window:NewTab("Gamepasses")
@@ -41,10 +42,6 @@ end)
 
 lp:NewButton("Spdm Team Squid Game", "Squid Game (Squid Game...)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/shuttle-r/crap/main/Main.txt",true))()
-end)
-
-lp:NewButton("Toogle Button", "Toogle Button (Menu Close...)", function()
-    loadstring(game:HttpGet("",true))()
 end)
 
 -- Auto Wins
