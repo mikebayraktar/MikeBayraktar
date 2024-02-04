@@ -43,6 +43,10 @@ lp:NewButton("Spdm Team Squid Game", "Squid Game (Squid Game...)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/shuttle-r/crap/main/Main.txt",true))()
 end)
 
+lp:NewButton("Toogle Button", "Toogle Button (Menu Close...)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Toogle-Ui/main/Toogle",true))()
+end)
+
 -- Auto Wins
 local rg = Gamehacks:NewSection("Cookie Cutter")
 rg:NewButton("Break the Game", "Spam this on cookie game if you are frontman.", function()
