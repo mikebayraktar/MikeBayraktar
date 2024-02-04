@@ -44,7 +44,7 @@ lp:NewButton("Spdm Team Squid Game", "Squid Game (Squid Game...)", function()
 end)
 
 lp:NewButton("Toogle Button", "Toogle Button (Menu Close...)", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Toogle-Ui/main/Toogle",true))()
+    loadstring(game:HttpGet("",true))()
 end)
 
 -- Auto Wins
