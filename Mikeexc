@@ -51,8 +51,8 @@ lp:NewButton("Infinite Yield", "Open an admin script (fly, jumppower, etc...)", 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
 
-lp:NewButton("Spdm Team Squid Game", "Squid Game (Squid Game...)", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/shuttle-r/crap/main/Main.txt",true))()
+lp:NewButton("Mikeexc Mobile Squid Game", "Squid Game (Squid Game...)", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Mikeexc2/main/mike%20exc%20gui%20online",true))()
 end)
 
 -- Auto Wins
