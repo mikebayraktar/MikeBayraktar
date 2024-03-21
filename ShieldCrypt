@@ -52,7 +52,7 @@ lp:NewButton("Infinite Yield", "Open an admin script (fly, jumppower, etc...)", 
 end)
 
 lp:NewButton("ShieldCrypt Mobile Squid Game", "Squid Game (Squid Game...)", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Mikeexc2/main/mike%20exc%20gui%20online",true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Mikeexc21/main/Gui",true))()
 end)
 
 -- Auto Wins
