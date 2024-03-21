@@ -2,7 +2,7 @@
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Welcome"; -- the title (ofc)
-Text = "Script Made By Mikeexc"; -- what the text says (ofc)
+Text = "Script Made By ShieldCrpyt"; -- what the text says (ofc)
 Icon = ""; -- the image if u want. 
 Duration = 5; -- how long the notification should in secounds
 })
@@ -11,7 +11,7 @@ Duration = 5; -- how long the notification should in secounds
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Mikeexc/main/Mike"))()
-local Window = Library.CreateLib("🔴Green Light Red Light🟢 - Mikeexc", "LightTheme")
+local Window = Library.CreateLib("🔴Green Light Red Light🟢 - ShieldCrpyt", "LightTheme")
 local LocalPlayer = Window:NewTab("LocalPlayer")
 local Gamepasses = Window:NewTab("Gamepasses")
 local Gamehacks = Window:NewTab("Auto Wins")
@@ -51,7 +51,7 @@ lp:NewButton("Infinite Yield", "Open an admin script (fly, jumppower, etc...)", 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
 
-lp:NewButton("Mikeexc Mobile Squid Game", "Squid Game (Squid Game...)", function()
+lp:NewButton("ShieldCrpyt Mobile Squid Game", "Squid Game (Squid Game...)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/mikeexc/Mikeexc2/main/mike%20exc%20gui%20online",true))()
 end)
 
