@@ -8,7 +8,7 @@ print("Discord url has been copied to your clipboard!")
 wait(1.2)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Welcome"; -- the title (ofc)
-Text = "Script Made By MikeBayraktar"; -- what the text says (ofc)
+Text = "Script Made By Michael"; -- what the text says (ofc)
 Icon = ""; -- the image if u want. 
 Duration = 5; -- how long the notification should in secounds
 })
@@ -17,7 +17,7 @@ Duration = 5; -- how long the notification should in secounds
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktar/main/MikeBayraktarGui"))()
-local Window = Library.CreateLib("🤫🥷🏻Green Light Red Light🥷🏻🤫 - MikeBayraktar", "LightTheme")
+local Window = Library.CreateLib("🐉Green Light Red Light🐉 - Vesta Hub", "LightTheme")
 local LocalPlayer = Window:NewTab("LocalPlayer")
 local Gamepasses = Window:NewTab("Gamepasses")
 local Gamehacks = Window:NewTab("Auto Wins")
@@ -57,7 +57,7 @@ lp:NewButton("Infinite Yield", "Open an admin script (fly, jumppower, etc...)", 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
 
-lp:NewButton("MikeBayraktar Mobile Squid Game", "Squid Game (Squid Game...)", function()
+Lp:newbutton("VestaHub Mobile Squid Game", "Squid Game (Squid Game...)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktarSquidGame/main/MikeBayraktarSquidGame",true))()
 end)
 
