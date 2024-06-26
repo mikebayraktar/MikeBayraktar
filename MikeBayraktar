@@ -55,7 +55,7 @@ lp:NewButton("Infinite Yield", "Open an admin script (fly, jumppower, etc...)", 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
 end)
 
-lp:NewButton("ShieldCrypt Mobile Squid Game", "Squid Game (Squid Game...)", function()
+lp:NewButton("VestaHub Mobile Squid Game", "Squid Game (Squid Game...)", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktarSquidGame/main/MikeBayraktarSquidGame",true))()
 end)
 
