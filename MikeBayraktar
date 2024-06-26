@@ -17,7 +17,7 @@ Duration = 5; -- how long the notification should in secounds
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/mikebayraktar/MikeBayraktar/main/MikeBayraktarGui"))()
-local Window = Library.CreateLib("🐉Green Light Red Light🐉 - Vesta Hub", "LightTheme")
+local Window = Library.CreateLib("🐉Green Light Red Light🐉 - VestaHub", "LightTheme")
 local LocalPlayer = Window:NewTab("LocalPlayer")
 local Gamepasses = Window:NewTab("Gamepasses")
 local Gamehacks = Window:NewTab("Auto Wins")
